@@ -1,0 +1,9 @@
+@theme {
+  --color-primary: #2e899b;
+  --color-primary-dark: #0c7c90;
+  --color-neutral-black: #131313;
+  --color-grey-color-300: #d0d5dd;
+  --color-grey-color-500: #667085;
+  --color-grey-color-700: #344054;
+  --color-error: #ed3d2f;
+}

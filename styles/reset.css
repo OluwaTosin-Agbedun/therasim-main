@@ -1,0 +1,19 @@
+*:focus {
+  @apply outline-[4px] outline-offset-0 outline-primary/20;
+}
+
+body {
+  @apply font-bricolage font-normal text-neutral-black bg-white;
+}
+
+button {
+  @apply cursor-pointer;
+}
+
+/* Remove chrome autofill color from inputs */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000000s ease-in-out 0s;
+}

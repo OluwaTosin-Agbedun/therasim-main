@@ -1,0 +1,8 @@
+@import url("../styles/michroma-font.css");
+@import url("../styles/nunito-font.css");
+@import url("../styles/bricolage.css");
+
+@import "tailwindcss";
+@import "../styles/tailwind-colors.css";
+@import "../styles/tailwind-fonts.css";
+@import "../styles/reset.css";

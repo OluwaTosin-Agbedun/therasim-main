@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 800;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-ExtraBold.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-Bold.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-SemiBold.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-Medium.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-Regular.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-Light.ttf")
+    format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Bricolage";
+  font-weight: 200;
+  font-style: normal;
+  src: url("../assets/fonts/bricolage/BricolageGrotesque-ExtraLight.ttf")
+    format("opentype");
+  font-display: swap;
+}
