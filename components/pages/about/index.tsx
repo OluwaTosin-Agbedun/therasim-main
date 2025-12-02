@@ -10,8 +10,8 @@ const AboutScreen = () => {
   return (
     <>
       <Banner />
-      <AboutVideoSection />
       <WhoWeAre />
+      <AboutVideoSection />
       <VisionMission />
       <WhatWeDo />
       <WhoWeServe />
