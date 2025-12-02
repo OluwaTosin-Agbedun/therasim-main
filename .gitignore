@@ -41,5 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 # videos
-public/videos/*.mp4
+public/videos/what-we-do.mp4
 
