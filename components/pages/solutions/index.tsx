@@ -7,8 +7,8 @@ const SolutionsScreen = () => {
   return (
     <>
       <Banner />
+      <Simulation />      
       <Therapy />
-      <Simulation />
     </>
   );
 };

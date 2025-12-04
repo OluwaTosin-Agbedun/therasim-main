@@ -4,7 +4,7 @@ import WhoWeAre from "./components/whoWeAre";
 import AboutVideoSection from "@/components/pages/about/components/videoSection";
 import Banner from "./components/banner";
 import WhatWeDo from "./components/whatWeDo";
-import WhoWeServe from "./components/whoWeServe";
+// import WhoWeServe from "./components/whoWeServe";
 
 const AboutScreen = () => {
   return (
@@ -14,7 +14,7 @@ const AboutScreen = () => {
       <AboutVideoSection />
       <VisionMission />
       <WhatWeDo />
-      <WhoWeServe />
+      {/* <WhoWeServe /> */}
     </>
   );
 };

@@ -38,11 +38,30 @@ const Simulation = () => {
             tabletVariant="heading-2"
             className="font-michroma mb-8"
           >
-            Medical
-            <br />& Trauma
+            Trauma Care 
+            <br /> & Mental 
             <br />
-            Simulation
+            Resilience Solutions
           </MotionTypography>
+          <div className="space-y-5 md:space-y-8">          
+            <MotionTypography
+              initial={{ opacity: 0, x: 0, y: 20 }}
+              whileInView={{ opacity: 1, x: 0, y: 0 }}
+              transition={{
+                ease: "easeOut",
+                duration: 2,
+                delay: 0.5,
+                type: "spring",
+              }}
+              variant="body-medium"
+            >
+              
+              We deliver immersive, evidence-based virtual reality tools 
+              that support psychological health, trauma recovery, and 
+              mental readiness—especially for
+               high-stress professions.
+          </MotionTypography>
+          </div>
           <div className="space-y-8">
             {therapyData.map((item) => (
               <ListContent key={item.header} listColor="black" {...item} />
