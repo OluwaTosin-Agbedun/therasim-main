@@ -2,13 +2,13 @@ import { ListContentProps } from "../components/therapy/listContent";
 
 export const simulationData: ListContentProps[] = [
   {
-    header: "What We Offer:",
+    header: "Our Solutions Include:",
     list: [
-      "Trauma manikins, wearable wounds, and task trainers",
-      "Emergency response, triage, and mass-casualty simulations",
-      "Tactical combat casualty care (TCCC) training solutions",
+      "Advanced trauma manikins and wearable simulation wounds",
+      ",Emergency care, triage, and mass-casualty scenarios",
+      "Tactical Combat Casualty Care (TCCC) modules",
       "VR/AR-enhanced training environments",
-      "Custom simulation programs for defence, healthcare, and emergency agencies",
+      "Custom program design for defence, healthcare, and emergency services",
     ],
   },
 ];

@@ -41,7 +41,7 @@ const Simulation = () => {
             Trauma Care 
             <br /> & Mental 
             <br />
-            Resilience Solutions
+            Resilience 
           </MotionTypography>
           <div className="space-y-5 md:space-y-8">          
             <MotionTypography
@@ -56,10 +56,10 @@ const Simulation = () => {
               variant="body-medium"
             >
               
-              We deliver immersive, evidence-based virtual reality tools 
-              that support psychological health, trauma recovery, and 
-              mental readiness—especially for
-               high-stress professions.
+              Immersive, evidence-based tools that strengthen psychological
+               resilience and support trauma recovery
+               for high-stress professions.
+              
           </MotionTypography>
           </div>
           <div className="space-y-8">

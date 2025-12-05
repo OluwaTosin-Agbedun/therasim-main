@@ -45,9 +45,9 @@ const Therapy = () => {
               variant="body-medium"
             >
               
-              We provide high-fidelity simulation systems that prepare responders,
-               clinicians, and military units for real-world emergencies
-               through realistic, hands-on training.
+              High-fidelity medical and tactical simulation systems 
+              that prepare teams for real-world emergencies.
+              
           </MotionTypography>
           </div>
           <div className="space-y-5 md:space-y-8">

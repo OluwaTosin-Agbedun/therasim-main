@@ -2,13 +2,13 @@ import { ListContentProps } from "../components/therapy/listContent";
 
 export const therapyData: ListContentProps[] = [
   {
-    header: "What We Offer:",
+    header: "Our Solutions Include:",
     list: [
-      "VR Exposure Therapy for PTSD, anxiety, and stress disorders.",
-      "Immersive therapeutic modules for trauma processing.",
-      "Biofeedback-supported VR sessions.",
-      "Mental-readiness programs for military and frontline personnel.",
-      "Onsite, mobile, and institutional deployment options.",
+      "Virtual Reality Exposure Therapy (VRET)",
+      "Immersive trauma-processing modules",
+      "VR + biofeedback emotional regulation training",
+      "Mental-readiness and resilience programs",
+      "Flexible delivery: onsite, mobile units, or institutional setups.",
     ],
   },
 ];
