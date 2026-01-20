@@ -13,7 +13,7 @@ import MotionTypography from "@/components/common/motionTypography";
 
 const WhatWeDo = () => {
   return (
-    <section className="py-14 md:py-20 overflow-hidden">
+    <section id="WhatWeDo" className="py-14 md:py-20 overflow-hidden">
       <Container>
         <MotionTypography
           initial={{ opacity: 0, x: 0, y: 20 }}
@@ -25,7 +25,7 @@ const WhatWeDo = () => {
           }}
           variant="heading-5"
           tabletVariant="heading-2"
-          className="font-michroma mb-4 text-center"
+          className="font-manrope  mb-4 text-center"
           as="h2"
         >
           What we do

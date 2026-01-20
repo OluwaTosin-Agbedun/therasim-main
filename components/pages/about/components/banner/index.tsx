@@ -11,7 +11,7 @@ import { motion } from "motion/react";
 
 const Banner = () => {
   return (
-    <section className="py-24 md:py-40 relative overflow-hidden">
+    <section id="Banner" className="py-24 md:py-40 relative overflow-hidden">
       <MotionImage
         initial={{ scale: 1.2 }}
         whileInView={{ scale: 1 }}

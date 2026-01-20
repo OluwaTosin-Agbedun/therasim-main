@@ -6,7 +6,7 @@ import MotionTypography from "@/components/common/motionTypography";
 
 const AboutVideoSection = () => {
   return (
-    <section className="py-14 md:py-20 bg-black/5">
+    <section id="VideoSection" className="py-14 md:py-20 bg-black/5">
       <Container>
         {/* <MotionTypography
           initial={{ opacity: 0, y: 20 }}
@@ -14,7 +14,7 @@ const AboutVideoSection = () => {
           transition={{ duration: 1.2 }}
           variant="heading-5"
           tabletVariant="heading-2"
-          className="font-michroma mb-6 text-center"
+          className="font-manrope  mb-6 text-center"
         >
           At TheraSim, we use immersive simulation technologies to transform
              readiness, training, and performance across critical industries.
@@ -26,7 +26,7 @@ const AboutVideoSection = () => {
             transition={{ duration: 1.2 }}
             variant="heading-5"
             tabletVariant="heading-2"
-            className="font-michroma mb-6 text-center"
+            className="font-manrope  mb-6 text-center"
         >
             Real Life Scenarios
         </MotionTypography>

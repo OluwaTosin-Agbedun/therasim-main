@@ -6,7 +6,7 @@ import aboutVisionImg from "@/assets/images/about-vision.png";
 
 const VisionMission = () => {
   return (
-    <section className="bg-[linear-gradient(to_right,#01375D,#2E899B)] py-14 md:py-20 overflow-hidden text-white">
+    <section id="VisionMission" className="bg-[linear-gradient(to_right,#01375D,#2E899B)] py-14 md:py-20 overflow-hidden text-white">
       <Container className="flex flex-col lg:flex-row gap-16 lg:gap-32">
         <VisionItem
           content="To transform health, resilience, and operational readiness through immersive technology and simulation innovation."

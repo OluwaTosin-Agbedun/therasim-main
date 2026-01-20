@@ -2,9 +2,19 @@
 
 import Typography from "@/components/common/typography";
 import React from "react";
-import virtualRealityImg from "@/assets/images/virtual-reality.png";
 import Image from "next/image";
 import { motion } from "motion/react";
+import {
+  Heart,
+  AlertTriangle,
+  Brain,
+  Wrench,
+  Users,
+  Globe,
+  ShieldCheck,
+  BrainCircuit,
+  HeartHandshake,
+} from "lucide-react";
 
 export interface MoreThanTechnologyCardProps {
   header: string;
@@ -12,12 +22,20 @@ export interface MoreThanTechnologyCardProps {
   index?: number;
 }
 
+const iconMap = [
+  { Icon: Globe, color: "text-green-500" },
+  { Icon: ShieldCheck , color: "text-blue-500" },
+  { Icon: Brain, color: "text-purple-500" },
+  { Icon: HeartHandshake, color: "text-red-500" },
+];
+
 const MoreThanTechnologyCard = ({
   header,
   paragraph,
   index = 0,
 }: MoreThanTechnologyCardProps) => {
   const isEven = index % 2 === 0;
+  const { Icon, color } = iconMap[index % 4];
 
   return (
     <motion.div
@@ -27,7 +45,7 @@ const MoreThanTechnologyCard = ({
       className="bg-[#FDFCFCCC] px-8 py-8 rounded-xl shadow-[0px_-4px_0px_5px_#00000040]"
     >
       <div className="w-[40px] h-[40px] mb-4">
-        <Image alt="" src={virtualRealityImg} />
+        <Icon size={40} className={color} strokeWidth={1.5} />
       </div>
       <Typography
         variant="body-medium"

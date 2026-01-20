@@ -9,7 +9,7 @@ import MotionImage from "@/components/common/motionImage";
 
 const WhoWeAre = () => {
   return (
-    <section className="py-14 md:py-20 overflow-hidden relative">
+    <section id="WhoWeAre" className="py-14 md:py-20 overflow-hidden relative">
       <MotionImage
         initial={{ scale: 1.3 }}
         whileInView={{ scale: 1 }}

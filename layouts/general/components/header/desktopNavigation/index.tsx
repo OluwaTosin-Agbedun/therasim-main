@@ -21,8 +21,21 @@ const DesktopNavigation = () => {
         />
       </Link>
       <div className="flex items-center gap-5">
-        <LinkItem href={Path.About} label="About Us" />
-        <LinkItem href={Path.Solutions} label="Solutions" />
+        <LinkItem href={Path.Home} label="Home" />
+        <DropdownItem
+          label="About Us"
+          href={Path.About}
+          links={[
+            { label: "About Therasim", href: `${Path.About}#Banner` },
+            { label: "Who We Are", href: `${Path.About}#WhoWeAre` },
+            { label: "Vision & Mission", href: `${Path.About}#VisionMission` },
+            { label: "Real Scenarios", href: `${Path.About}#VideoSection` },
+            { label: "What We Do", href: `${Path.About}#WhatWeDo` },
+          ]}
+        />
+        <LinkItem href={Path.Solutions} label="Solutions" />      
+        <LinkItem href={Path.WhoWeServe}label="Who We Serve" />
+        {/* <LinkItem href={Path.ContactUs} label="Contact Us" /> */}
         <DropdownItem
           label="Resources"
           links={[
@@ -31,14 +44,13 @@ const DesktopNavigation = () => {
             { label: "Help/FAQ", href: "#" },
           ]}
         />
-        <LinkItem href={Path.WhoWeServe}label="Who We Serve" />
-        <LinkItem href={Path.ContactUs} label="Contact Us" />
+        
       </div>
       <div>
         <ButtonLink
-          href={Path.Solutions}
+          href={Path.ContactUs}
           variant="dark"
-          label="Explore Our Solutions"
+          label="Contact Us"
         />
       </div>
     </Container>

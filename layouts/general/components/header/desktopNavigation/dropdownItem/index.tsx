@@ -17,9 +17,10 @@ import { LinkItemProps } from "../linkItem";
 interface Props {
   label: string;
   links: LinkItemProps[];
+  href?: string;
 }
 
-const DropdownItem = ({ label, links = [] }: Props) => {
+const DropdownItem = ({ label, links = [], href }: Props) => {
   const [isHover, setIsHover] = useState(false);
 
   const pathname = usePathname();
@@ -46,6 +47,11 @@ const DropdownItem = ({ label, links = [] }: Props) => {
           <MenuButton
             onMouseEnter={() => setIsHover(true)}
             onMouseLeave={() => setIsHover(false)}
+            onClick={() => {
+              if (href) {
+                window.location.href = href;
+              }
+            }}
             className={cs(
               "flex flex-col items-center gap-1 group relative hover:text-primary-dark duration-200",
               {
