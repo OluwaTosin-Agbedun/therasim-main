@@ -2,17 +2,11 @@
 
 import Typography from "@/components/common/typography";
 import React from "react";
-import Image from "next/image";
 import { motion } from "motion/react";
 import {
-  Heart,
-  AlertTriangle,
   Brain,
-  Wrench,
-  Users,
   Globe,
   ShieldCheck,
-  BrainCircuit,
   HeartHandshake,
 } from "lucide-react";
 
