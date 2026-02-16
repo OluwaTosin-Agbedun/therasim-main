@@ -2,7 +2,7 @@
 
 import Container from "@/components/common/container";
 import React from "react";
-import digitsBgImg from "@/assets/images/1-0-bg-digits.png";
+import digitsBgImg from "@/assets/images/therasimbg.png";
 import soldierImg from "@/assets/images/soldier-with-person-in-room.png";
 import MotionTypography from "@/components/common/motionTypography";
 import MotionImage from "@/components/common/motionImage";
