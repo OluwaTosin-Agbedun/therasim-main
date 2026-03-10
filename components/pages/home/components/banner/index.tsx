@@ -27,14 +27,17 @@ const Banner = () => {
             tabletVariant="heading-1"
             desktopVariant="display-1"
             as="h1"
-            className="font-michroma mb-5"
+            className="font-michroma mb-5 tracking-tight"
             initial={{ opacity: 0.4, x: 0, y: 20 }}
             whileInView={{ opacity: 1, x: 0, y: 0 }}
             transition={{ ease: "easeOut", duration: 2, type: "spring" }}
             viewport={{ once: true }}
           >
-            Immersive Simulation. <br />
-            Real-World Impact.
+            <span className="whitespace-nowrap">
+              Simulation Systems for Performance,
+            </span>
+            <br />
+            Response & Recovery
           </MotionTypography>
           <MotionTypography
             initial={{ opacity: 0, x: 0, y: 20 }}
@@ -48,8 +51,8 @@ const Banner = () => {
             viewport={{ once: true }}
             className="mb-8 max-w-[550px]"
           >
-            Advanced VR therapy, medical simulation, and resilience systems for
-            military, healthcare, and emergency response.
+            Realistic, clinically informed simulation solutions supporting mental 
+            resilience, medical readiness, and emergency operations.
           </MotionTypography>
           <motion.div
             initial={{ opacity: 0, x: 0, y: 20 }}
